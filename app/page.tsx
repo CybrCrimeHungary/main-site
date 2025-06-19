@@ -11,6 +11,10 @@ import StreamServiceImage from "@/public/backgrounds/live_streaming.jpg";
 import NetworkingServiceImage from "@/public/backgrounds/networking.jpg";
 import HostingServiceImage from "@/public/backgrounds/webhosting.jpg";
 import AminGrdaient from "@/public/gradients/amin.jpg";
+import MymindGrdaient from "@/public/gradients/mymind.jpg";
+import SummerVibeGrdaient from "@/public/gradients/summer_vibe.jpg";
+import PurpleGrdaient from "@/public/gradients/green.jpg";
+import PlayfulGradient from "@/public/gradients/playful.jpg";
 
 
 export default function Home() {
@@ -32,16 +36,12 @@ export default function Home() {
         backgroundImage={HeroBackground}
       />
       <section className="py-20 mx-5 md:mx-10 lg:mx-15">
-        <ImageAsText
-          image={AminGrdaient}
-        >
-          <h3 className="text-4xl md:text-5xl font-bold leading-tight">
+          <h3 className="text-4xl md:text-5xl font-bold leading-tight text-[#27A6DB] text-center">
             Szolgáltatásaink
             <span className="text-xl pb-[30px]">
               &#9650;
             </span>
           </h3>
-        </ImageAsText>
         <p className="mt-2 text-center">
           A jövőt nem várjuk, mi alakítjuk. Olyan rendszereket építünk, amik túlmutatnak az általános trendeken.
         </p>
@@ -76,6 +76,32 @@ export default function Home() {
             description="Amikor a hang számít, mi vagyunk a megoldás."
             image={EventSoundServiceImage}
           />
+        </section>
+      </section>
+      <section className="py-20 mx-5 md:mx-10 lg:mx-15">
+          <h3 className="text-4xl md:text-5xl font-bold leading-tight text-[#27A6DB] text-center">
+            Eddigi munkáink
+            <span className="text-xl pb-[30px]">
+              &#9632;
+            </span>
+          </h3>
+        <p className="mt-2 text-center">
+          Minden rendszer mögött emberek, minden eredmény mögött valódi munka. Ez a CybrCrime nyoma a digitális térben.
+        </p>
+        <section className="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        </section>
+      </section>
+      <section className="py-20 mx-5 md:mx-10 lg:mx-15">
+          <h3 className="text-4xl md:text-5xl font-bold leading-tight text-[#27A6DB] text-center">
+            Technológiáink
+            <span className="text-xl pb-[30px]">
+              &#9679;
+            </span>
+          </h3>
+        <p className="mt-2 text-center">
+          A munkánk alapja az, hogy a megfelelő eszközökkel dolgozunk. Olyan technológiákkal, amik nem csak divatosak, hanem működnek is.
+        </p>
+        <section className="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
         </section>
       </section>
     </>
