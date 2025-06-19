@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {url: '/logo.png', sizes: 'any'},
-      { url: '/icon_white.png', media: '(prefers-color-scheme: dark)' }
+      { url: '/logo_white.png', media: '(prefers-color-scheme: dark)' }
     ],
     shortcut: '/logo.png',
     apple: '/logo.png',
@@ -59,7 +59,7 @@ export default function RootLayout({
   return (
     <html lang="hu">
       <body
-        className={`${robotoSans.variable} ${robotoMono.variable} antialiased bg-black text-white`}
+        className={`${robotoSans.variable} ${robotoMono.variable} antialiased bg-[#181925] text-white`}
       >
         {children}
       </body>
