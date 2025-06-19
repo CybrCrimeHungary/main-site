@@ -1,5 +1,4 @@
 import Hero from "@/components/hero";
-import ImageAsText from "@/components/image-as-text";
 import ServiceCard from "@/components/service-card";
 import { Button } from "@/components/ui/button";
 
@@ -10,11 +9,6 @@ import EventSoundServiceImage from "@/public/backgrounds/event_sound.jpg";
 import StreamServiceImage from "@/public/backgrounds/live_streaming.jpg";
 import NetworkingServiceImage from "@/public/backgrounds/networking.jpg";
 import HostingServiceImage from "@/public/backgrounds/webhosting.jpg";
-import AminGrdaient from "@/public/gradients/amin.jpg";
-import MymindGrdaient from "@/public/gradients/mymind.jpg";
-import SummerVibeGrdaient from "@/public/gradients/summer_vibe.jpg";
-import PurpleGrdaient from "@/public/gradients/green.jpg";
-import PlayfulGradient from "@/public/gradients/playful.jpg";
 
 
 export default function Home() {
